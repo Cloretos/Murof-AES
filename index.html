@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murof AES</title>
+    <link rel="stylesheet" href="_css/main.css">
+    <link rel="shortcut icon" href="murof.ico" type="image/x-icon">
+</head>
+<body>
+    <article>
+        <section>
+            <header>
+                <h1>murof aes</h1>
+            </header>
+            <div>
+                <textarea id="textoOriginal" rows="5" placeholder="Digite seu texto..."></textarea>
+                <input type="password" id="chave" placeholder="Chave da criptografia...">
+                <button onclick="criptografar()">Criptografar</button>
+            </div>
+        </section>
+        <section>
+            <div class="result">
+                <textarea id="textoCriptografado" rows="5" readonly></textarea>
+            </div>
+        </section>
+    </article>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/criptografia.js"></script>
+</body>
+</html>

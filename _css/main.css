@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'GregorianFLF';
+    src: url('../GregorianFLF.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+a {
+    text-decoration: none;
+    color: inherit;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+::selection {
+    background-color: grey;
+    color: black;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'GregorianFLF';
+    font-weight: normal;
+    font-size: 33pt;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5%;
+}
+
+textarea, input {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 1px grey solid;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+button {
+    background-color: grey;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: 1px grey solid;
+    border-radius: 8px;
+    transition: all 0.2s ease-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
